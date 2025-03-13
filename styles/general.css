@@ -1,0 +1,64 @@
+/* General */
+@font-face {
+    font-family: 'segoe-ui-r';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/segoe-ui/segoe-ui.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'segoe-ui-b';
+    font-style: normal;
+    font-weight: bold;
+    src: url('/assets/fonts/segoe-ui/segoe-ui-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iransansx-b';
+    font-style: normal;
+    font-weight: bold;
+    src: url('/assets/fonts/iransans-x/IRANSansXBold.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'iransansx-r';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/iransans-x/IRANSansXRegular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/rubik/Rubik.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+    --l-dark: #001003;
+    --l-green-darker: #001804;
+    --l-green-dark: #003008;
+    --l-green: #00ad19;
+    --l-green-light: #e8fdec;
+    --l-green-light-secondry: #d6f2db;
+    --l-light: #fff;
+}
+
+* {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: segoe-ui-r, iransansx-r;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+}
